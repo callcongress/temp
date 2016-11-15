@@ -4,8 +4,9 @@ ul.navigate {-webkit-padding-start: 0; -moz-padding-start: 0; padding-left: 0; m
 .container {display: block; max-width: 80%; margin-left: auto; margin-right: auto;}
 
 header .logo {float: right; display: block; max-height: 50px;}
-header {display: block; padding: 20px 50px;}
+header {display: block; padding: 20px 50px; position: fixed; top: 0; right: 0;}
 
+.container {margin-bottom: 200px;}
 .container .left {width: 49%; display: table-cell; vertical-align: middle; height: 100%;}
 .container .right {width: 49%; display: table-cell; vertical-align: middle; padding: 100px;}
 
@@ -43,19 +44,32 @@ nav {text-align: center;}
 
 
 
+
+
 /*type*/
 .lead {font-size: 120px; line-height: 1em;}
 
 .lgr {font-size: 1.2em;}
 
+.script .text p {font-size: 18px; line-height: 1.8em;}
+
+.date {font-size: 12px; color: #E6625E;}
+.tags {background-color: black; color: white; padding: 3px; text-transform: uppercase;}
+
+a {color: #0BBCD6;}
+a:hover {color: #E6625E;}
+a:visited {color: #E6625E;}
+
+
 /* scripts */
 
-.fillin {padding: 2px 10px; border-bottom: 2px solid #E6625E; display: inline-block;}
+.fillin {padding: 0px 10px; border-bottom: 2px solid #E6625E; display: inline-block; line-height: 1em;}
 
 
 
 @media screen and (max-width: 1000px) {
   .container .left, .container .right {width: 100%; display: block;}
   .navigate li {display: block;}
+  .navigation {position: relative;}
   
 }
