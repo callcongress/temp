@@ -7,8 +7,8 @@ header .logo {float: right; display: block; max-height: 50px; padding: 10px; bac
 header {display: block; padding: 20px 20px; position: fixed; top: 0; right: 0;}
 
 .container {margin-bottom: 200px;}
-.container .left {width: 49%; display: table-cell; vertical-align: middle; height: 100%;}
-.container .right {width: 49%; display: table-cell; vertical-align: middle; padding: 100px;}
+.container .left {width: 65%; display: table-cell; vertical-align: middle; height: 100%;}
+.container .right {width: 33%; display: table-cell; vertical-align: middle; padding: 100px;}
 
 .subpage {margin-top: 200px; display: block;}
 .text {max-width: 700px;}
