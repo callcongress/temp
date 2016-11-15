@@ -48,6 +48,10 @@ nav {text-align: center;}
 
 .lgr {font-size: 1.2em;}
 
+/* scripts */
+
+.fillin {padding: 2px 10px; border-bottom: 2px solid #E6625E; display: inline-block;}
+
 
 
 @media screen and (max-width: 1000px) {
