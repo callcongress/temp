@@ -3,8 +3,8 @@ ul.navigate {-webkit-padding-start: 0; -moz-padding-start: 0; padding-left: 0; m
 
 .container {display: block; max-width: 80%; margin-left: auto; margin-right: auto;}
 
-header .logo {float: right; display: block; max-height: 50px;}
-header {display: block; padding: 20px 50px; position: fixed; top: 0; right: 0;}
+header .logo {float: right; display: block; max-height: 50px; padding: 10px; background-color: white;}
+header {display: block; padding: 20px 20px; position: fixed; top: 0; right: 0;}
 
 .container {margin-bottom: 200px;}
 .container .left {width: 49%; display: table-cell; vertical-align: middle; height: 100%;}
@@ -42,6 +42,9 @@ nav {text-align: center;}
 
 .notif {color: red;}
 
+/* partisan */
+.democrat {background-color: #0BBCD6;}
+.republican {background-color: #E6625E;}
 
 
 
@@ -54,11 +57,13 @@ nav {text-align: center;}
 .script .text p {font-size: 18px; line-height: 1.8em;}
 
 .date {font-size: 12px; color: #0BBCD6;}
-.tags {background-color: black; color: white; padding: 3px; text-transform: uppercase;}
+.tags, .about {background-color: black; color: white; padding: 3px 10px; margin: 0 5px; text-transform: uppercase;}
 
 a {color: #0BBCD6;}
 a:hover {color: #E6625E;}
 a:visited {color: #E6625E;}
+
+.bigname {font-size: 120px; line-height: 1em; margin-bottom: 15px; display: block; font-weight: bold;}
 
 
 /* scripts */
