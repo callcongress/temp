@@ -1,0 +1,57 @@
+body {display: block; margin: 0px;}
+ul.navigate {-webkit-padding-start: 0; -moz-padding-start: 0; padding-left: 0; margin: 2em 0;}
+
+.container {display: block; max-width: 80%; margin-left: auto; margin-right: auto;}
+
+header .logo {float: right; display: block; max-height: 50px;}
+header {display: block; padding: 20px 50px;}
+
+.container .left {width: 49%; display: table-cell; vertical-align: middle; height: 100%;}
+.container .right {width: 49%; display: table-cell; vertical-align: middle; padding: 100px;}
+
+.subpage {margin-top: 200px; display: block;}
+.text {max-width: 700px;}
+
+.navigation {display: block; position: fixed; bottom: 0px; text-align: center; width: 100%; background-color: #f8f8f8; border-top: 1px solid #ddd;}
+.navigate li {display: inline; padding: 2em; border-right: 1px solid #ddd; list-style: none;}
+.navigate li:first-of-type {border-left: 1px solid #ddd;}
+.navigate li a {color: black; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; font-size: 12px;}
+.navigate li a:hover {color: #0BBCD6;}
+nav {text-align: center;}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+
+.dk {background-image: url("dkbg.jpg"); background-size: cover;}
+.dk h1, .dk p {color: white;}
+
+
+/* front form */
+.formlabel {font-size: 11px; color: #ddd;}
+.zip {display: block; font-size: 35px; background-color: transparent; border-bottom:  5px solid #0BBCD6; padding: 10px 50px; color: white; border-left: 0px; border-top: 0px; border-right: 0px; text-align: center;}
+.zip:focus {outline: none;}
+
+
+.notif {color: red;}
+
+
+
+/*type*/
+.lead {font-size: 120px; line-height: 1em;}
+
+.lgr {font-size: 1.2em;}
+
+
+
+@media screen and (max-width: 1000px) {
+  .container .left, .container .right {width: 100%; display: block;}
+  .navigate li {display: block;}
+  
+}
