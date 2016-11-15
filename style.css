@@ -8,7 +8,7 @@ header {display: block; padding: 20px 20px; position: fixed; top: 0; right: 0;}
 
 .container {margin-bottom: 200px;}
 .container .left {width: 65%; display: table-cell; vertical-align: middle; height: 100%;}
-.container .right {width: 33%; display: table-cell; vertical-align: middle; padding: 100px;}
+.container .right {width: 33%; display: table-cell; vertical-align: middle;}
 
 .subpage {margin-top: 200px; display: block;}
 .text {max-width: 700px;}
@@ -36,7 +36,7 @@ nav {text-align: center;}
 
 /* front form */
 .formlabel {font-size: 11px; color: #ddd;}
-.zip {display: block; font-size: 35px; background-color: transparent; border-bottom:  5px solid #0BBCD6; padding: 10px 50px; color: white; border-left: 0px; border-top: 0px; border-right: 0px; text-align: center;}
+.zip {display: block; font-size: 35px; background-color: transparent; border-bottom:  5px solid #0BBCD6; padding: 10px; color: white; border-left: 0px; border-top: 0px; border-right: 0px; text-align: center;}
 .zip:focus {outline: none;}
 
 
